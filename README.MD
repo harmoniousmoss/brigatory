@@ -1,12 +1,18 @@
 # Kyoto - Security & Rate Limiting Service
-Kyoto is a comprehensive security service built with Rust and Actix Web that provides real-time IP blacklisting, malicious URL blocking, and rate limiting capabilities. Features MongoDB integration, JWT authentication, RESTful API design, and Docker containerization.
 
-## Development in plan
-- [x] IP Blacklisting
-- [x] Real-time Updates
-- [x] MongoDB Integration
-- [x] JWT Authentication
-- [x] RESTful API
-- [x] Malicious URL Blocking
-- [x] Rate Limiting
-- [x] Etc
+Kyoto protects your website from malicious traffic by blocking bad IP addresses, harmful URLs, and preventing abuse through rate limiting.
+
+## ✨ Features
+- [x] **IP Blacklisting**: Block malicious IP addresses in real-time
+- [x] **URL Protection**: Prevent access to harmful or malicious URLs
+- [x] **Rate Limiting**: Control traffic flow to prevent abuse
+- [x] **Real-time Updates**: Instant security rule updates
+- [x] **Authentication**: Secure access control
+- [x] **API Integration**: Easy integration with existing systems
+
+## 🛠️ Tech Stack
+- **Backend**: Rust with Actix Web framework
+- **Database**: MongoDB for data persistence
+- **Authentication**: JWT (JSON Web Tokens)
+- **Architecture**: RESTful API design
+- **Deployment**: Docker containerization support
